@@ -100,7 +100,7 @@ textarea {
   
    /* General Styles */
     
-   html {
+  html {
     font-size: 16px;
   }
    
@@ -114,6 +114,8 @@ textarea {
   ul, 
   ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
    
   a {
