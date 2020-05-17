@@ -335,6 +335,11 @@ textarea {
     flex-flow: row wrap;
   }
   
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
+  }
+
   .features p {
     text-align: center;
     margin: 0;
@@ -399,11 +404,11 @@ textarea {
     left: 0; 
 }
   
-  /* ==========================================================================
-     FAQ Page
-     ========================================================================== */
-  
-  .faq {
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+
+   .faq {
     background-color: #527158;
     display: flex;
     justify-content: center;
@@ -427,7 +432,7 @@ textarea {
   .faq-content {
     margin-bottom: 50px;
   }
-
+  
   .faq-content h4 {
     line-height: 1.333;
   }
@@ -793,7 +798,7 @@ textarea {
     .map figure {
       padding-bottom: 37.5%;
     }
-    
+
     .mission h2,
     .contact-section .content-wrapper h2 {
         width: 95%;
