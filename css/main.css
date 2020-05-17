@@ -239,6 +239,13 @@ textarea {
     justify-content: center;
     flex-flow: row wrap;
   }
+
+  .hero-area h1 {
+    font-size: 2.25em;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500; 
+    line-height: 1.2; 
+  }
   
   /* Aside */
   
@@ -249,6 +256,32 @@ textarea {
     flex-flow: row wrap;
   }
   
+  aside .form {
+    margin-top: 30px;
+  }
+   
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+  }
+   
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
   /* Features */
   
   .features {
@@ -274,12 +307,14 @@ textarea {
   }
   
   .features p {
+    text-align: center;
     margin: 0;
   }
   
   /* Reviews */
   
   .reviews {
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -287,6 +322,7 @@ textarea {
   
   .reviews h2 {
     margin-bottom: 40px;
+    line-height: 1;
   }
   
   .reviews h3 {
@@ -299,6 +335,7 @@ textarea {
      ========================================================================== */
   
   .mission {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -306,6 +343,7 @@ textarea {
   }
   
   .contact-section {
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -321,6 +359,7 @@ textarea {
      ========================================================================== */
   
   .faq {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -337,10 +376,15 @@ textarea {
   
   .faq h2 {
     margin-bottom: 40px;
+    line-height: 1;
   }
   
   .faq-content {
     margin-bottom: 50px;
+  }
+
+  .faq-content h4 {
+    line-height: 1.333;
   }
 
 /* ==========================================================================
