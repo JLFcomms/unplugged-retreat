@@ -241,9 +241,17 @@ textarea {
   }
   
   footer .social-icons p {
+    background-color: #527158;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  
+  footer .social-icons p i {
+    font-size: 1.3125em;
   }
   
   footer .copyright {
@@ -433,9 +441,13 @@ textarea {
     margin-bottom: 50px;
   }
   
+  .faq-content {
+    margin-bottom: 50px;
+  }
+  
   .faq-content h4 {
     line-height: 1.333;
-  }
+  }  
 
 /* ==========================================================================
    Helper classes
@@ -658,6 +670,11 @@ textarea {
     footer p {
         line-height: 1.285;
     }
+
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between;
+    }
   
     footer .copyright {
       width: 100%;
@@ -696,28 +713,28 @@ textarea {
       font-size: 1.5em;
     }
   
-    /* ==========================================================================
-     FAQ Page
-     ========================================================================== */
-  
-    .faq .content-wrapper {
-      justify-content: space-between;
-    }
-  
-    .faq-content {
-      flex-basis: 45%;
-    }
-  
-    .faq h2 {
-      width: 100%;
-    }
-  
-    .faq h4,
-    .faq p {
-        font-size: .875em;
-        line-height: 1.125;
-    }
+  /* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+
+   .faq .content-wrapper {
+    justify-content: space-between;
   }
+
+  .faq-content {
+    flex-basis: 45%;
+  }
+
+  .faq h2 {
+    width: 100%;
+  }
+
+  .faq h4,
+  .faq p {
+      font-size: .875em;
+      line-height: 1.125;  
+  }
+}
   
   @media only screen and (min-width:1200px) {
     /*Desktop styles here*/
@@ -809,20 +826,21 @@ textarea {
       font-size: 1.875em;
     }
   
-    /* ==========================================================================
-    FAQ Page
-    ========================================================================== */
-    .faq h2 {
-      width: 100%;
-      font-size: 3em;
-    }
-      
-    .faq h4,
-    .faq p {
-        font-size: 1.125em;
-        line-height: 1;
-    }
+  /* ==========================================================================
+  FAQ Page
+  ========================================================================== */
+
+  .faq h2 {
+    width: 100%;
+    font-size: 3em;
   }
+    
+  .faq h4,
+  .faq p {
+      font-size: 1.125em;
+      line-height: 1;
+  }
+}
 
 /* ==========================================================================
    Print styles.
